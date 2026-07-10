@@ -1,4 +1,10 @@
 $ git branch -vva
   bug-fix-typo        06c6414 Fix typo
-* main                06c6414 [origin/main: ahead 1] Fix typo
-  remotes/origin/main 0e989f6 Add file
+* main                6f77074 [origin/main] bug-fix-revert
+  remotes/origin/main 6f77074 bug-fix-revert
+
+$ git log --oneline --all --graph
+* 6f77074 (HEAD -> main, origin/main) bug-fix-revert
+* 06c6414 (bug-fix-typo) Fix typo
+* 0e989f6 Add file
+* 0fdf5c3 Initial commit

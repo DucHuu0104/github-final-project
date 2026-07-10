@@ -1,3 +1,46 @@
-[
+$ curl https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?state=all&head=DucHuu0104:main
 
+[
+  {
+    "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/9160",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/9160",
+    "number": 9160,
+    "state": "open",
+    "title": "bug-fix-revert",
+    "user": {
+      "login": "DucHuu0104"
+    },
+
+    ...
+
+    "head": {
+      "label": "DucHuu0104:main",
+      "ref": "main",
+      "repo": {
+        "name": "mcino-Introduction-to-Git-and-GitHub",
+        "full_name": "DucHuu0104/mcino-Introduction-to-Git-and-GitHub",
+        "owner": {
+          "login": "DucHuu0104"
+        },
+        "fork": true,
+        "html_url": "https://github.com/DucHuu0104/mcino-Introduction-to-Git-and-GitHub"
+      }
+    },
+
+    "base": {
+      "label": "ibm-developer-skills-network:main",
+      "ref": "main",
+      "repo": {
+        "name": "mcino-Introduction-to-Git-and-GitHub",
+        "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+        "owner": {
+          "login": "ibm-developer-skills-network",
+          "type": "Organization"
+        },
+        "fork": false,
+        "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+        "forks_count": 7944
+      }
+    }
+  }
 ]

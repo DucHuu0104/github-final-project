@@ -5,6 +5,8 @@ Your branch is up to date with 'origin/main'.
 $ git merge bug-fix-typo
 Updating 0e989f6..06c6414
 Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
  forked-repo.txt | Bin 0 -> 276 bytes
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 forked-repo.txt
